@@ -9,6 +9,9 @@ internal static class StudentNames
 
     public static void Ron()
     {
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.BackgroundColor = ConsoleColor.White;
         Console.WriteLine("Ron :-)");
+        Console.ResetColor();
     }
 }

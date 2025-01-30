@@ -83,4 +83,12 @@ internal static class StudentNames
         Console.WriteLine("Lior");
         Console.ResetColor();
     }
+
+    public static void Liron()
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.BackgroundColor = ConsoleColor.White;
+        Console.WriteLine("Liron");
+        Console.ResetColor();
+    }
 }

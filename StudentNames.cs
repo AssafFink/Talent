@@ -6,4 +6,9 @@ internal static class StudentNames
     {
         Console.WriteLine("Teacher: Assaf");
     }
+
+    public static void GalAmrani()
+    {
+        Console.WriteLine("Student: Gal amrani");
+    }
 }

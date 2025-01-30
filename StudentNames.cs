@@ -9,6 +9,8 @@ internal static class StudentNames
 
     public static void Omri()
     {
+        Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("Omri");
+        Console.ResetColor();
     }
 }

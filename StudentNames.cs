@@ -91,13 +91,19 @@ internal static class StudentNames
         Console.WriteLine("Liron");
         Console.ResetColor();
     }
-    public static void Ido()
+
+    public static void Omri()
+    {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("Omri");
+        Console.ResetColor();
+    }
+
+  public static void Ido()
     {
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.BackgroundColor = ConsoleColor.Yellow;
         Console.WriteLine("Talent student name: Ido");
         Console.ResetColor();
     }
-
-
 }

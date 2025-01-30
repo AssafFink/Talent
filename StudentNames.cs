@@ -66,4 +66,11 @@ internal static class StudentNames
         Console.WriteLine("My Name Is Daniel Arbov");
         Console.ResetColor();
     }
+    public static void Lior()
+    {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.BackgroundColor = ConsoleColor.Red;
+        Console.WriteLine("Lior");
+        Console.ResetColor();
+    }
 }

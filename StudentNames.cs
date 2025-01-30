@@ -4,10 +4,18 @@ internal static class StudentNames
 {
     public static void Assaf()
     {
-        Console.WriteLine("Teacher: Assaf");
+        Console.WriteLine("Assaf");
     }
 
-    public static void Guy()
+    public static void Gil()
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.BackgroundColor = ConsoleColor.White;
+        Console.WriteLine("Student: Gil");
+        Console.ResetColor();
+    }
+
+  public static void Guy()
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.BackgroundColor = ConsoleColor.Cyan;

@@ -106,4 +106,12 @@ internal static class StudentNames
         Console.WriteLine("Talent student name: Ido");
         Console.ResetColor();
     }
+
+    public static void Ron()
+    {
+        Console.ForegroundColor = ConsoleColor.DarkCyan;
+        Console.BackgroundColor = ConsoleColor.White;
+        Console.WriteLine("Ron :-)");
+        Console.ResetColor();
+    }
 }

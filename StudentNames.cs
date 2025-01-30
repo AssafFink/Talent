@@ -11,6 +11,9 @@ internal static class StudentNames
 
     public static void DanielArbov()
     {
+        Console.ForegroundColor=ConsoleColor.Blue;
+        Console.BackgroundColor=ConsoleColor.Yellow;
         Console.WriteLine("My Name Is Daniel Arbov");
+        Console.ResetColor();
     }
 }

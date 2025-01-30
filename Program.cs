@@ -7,9 +7,7 @@ internal class Program
         Console.WriteLine("Talent Lecturer: ");
         StudentNames.Assaf();
         Console.WriteLine("Talent Students: ");
-        Console.WriteLine("Talent teacher name: ");
-        StudentNames.Assaf();
-        Console.WriteLine("Talent student names: ");
+        StudentNames.GalNeeman();
         StudentNames.Lior();
         StudentNames.DanielArbov(); 
         StudentNames.Gil();
@@ -18,6 +16,5 @@ internal class Program
         StudentNames.Aminov();
         StudentNames.DavidHaskell();
         StudentNames.Yonatan();
-
     }
 }

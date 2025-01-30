@@ -34,6 +34,13 @@ internal static class StudentNames
         Console.WriteLine("Student: Gal amrani");
        Console.ResetColor();
     }
+
+    public static void GalNeeman()
+    {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.WriteLine("Student: Gal Neeman");
+        Console.ResetColor();
+    }
   
     public static void DavidHaskell()
     {
@@ -76,5 +83,4 @@ internal static class StudentNames
         Console.WriteLine("Lior");
         Console.ResetColor();
     }
-
 }

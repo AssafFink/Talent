@@ -8,7 +8,10 @@ internal static class StudentNames
     }
     public static void Ido()
     {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.BackgroundColor = ConsoleColor.Yellow;
         Console.WriteLine("Talent student name: Ido");
+        Console.ResetColor();
     }
 
 

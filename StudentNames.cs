@@ -15,5 +15,6 @@ internal static class StudentNames
         Console.ForegroundColor = (ConsoleColor)x;
         Console.BackgroundColor = (ConsoleColor)y;
         Console.WriteLine("Yonatan");
+        Console.ResetColor();
     }
 }

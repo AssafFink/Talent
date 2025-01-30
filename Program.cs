@@ -7,6 +7,7 @@ internal class Program
         Console.WriteLine("Talent teacher name: ");
         StudentNames.Assaf();
         Console.WriteLine("Talent student names: ");
+        StudentNames.DanielArbov(); 
         StudentNames.Gil();
         StudentNames.Guy();
         StudentNames.GalAmrani();

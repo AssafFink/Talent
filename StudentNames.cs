@@ -1,4 +1,6 @@
-﻿namespace Talent;
+﻿using System.Diagnostics;
+
+namespace Talent;
 
 internal static class StudentNames
 {
@@ -54,6 +56,14 @@ internal static class StudentNames
         Console.ForegroundColor = (ConsoleColor)x;
         Console.BackgroundColor = (ConsoleColor)y;
         Console.WriteLine("Yonatan");
+        Console.ResetColor();
+    }
+
+    public static void DanielArbov()
+    {
+        Console.ForegroundColor=ConsoleColor.Blue;
+        Console.BackgroundColor=ConsoleColor.Yellow;
+        Console.WriteLine("My Name Is Daniel Arbov");
         Console.ResetColor();
     }
 }

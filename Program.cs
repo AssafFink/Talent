@@ -4,6 +4,9 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Talent Lecturer: ");
+        StudentNames.Assaf();
+        Console.WriteLine("Talent Students: ");
         Console.WriteLine("Talent teacher name: ");
         StudentNames.Assaf();
         Console.WriteLine("Talent student names: ");
@@ -15,5 +18,6 @@ internal class Program
         StudentNames.Aminov();
         StudentNames.DavidHaskell();
         StudentNames.Yonatan();
+
     }
 }

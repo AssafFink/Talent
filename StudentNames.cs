@@ -9,11 +9,10 @@ internal static class StudentNames
 
     public static void Orel()
     {
-        Console.WriteLine("Orel");
-        Console.WriteLine("-----------------");
         string name = "orel";
         int length = name.Length;
         int width = 2 * length - 1;
+        ConsoleColor[] colors = { ConsoleColor.Red, ConsoleColor.Green, ConsoleColor.Yellow, ConsoleColor.Cyan };
 
         for (int row = 0; row < length; row++)
         {
@@ -23,10 +22,10 @@ internal static class StudentNames
                 int left = center - row;
                 int right = center + row;
 
-           
                 if (col == left || col == right || row == length - 1)
                 {
-                    Console.Write(name[col % length]);
+                    Console.ForegroundColor = colors[col % colors.Length];
+                    Console.Write(name[col % name.Length]);
                 }
                 else
                 {
@@ -35,6 +34,9 @@ internal static class StudentNames
             }
             Console.WriteLine();
         }
+
+        Console.ResetColor();
     }
 }
-}
+
+

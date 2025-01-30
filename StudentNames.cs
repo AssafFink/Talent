@@ -11,6 +11,31 @@ internal static class StudentNames
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("Student: Gal amrani");
+    }
+    public static void DavidHaskell()
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.BackgroundColor = ConsoleColor.Green;
+        Console.WriteLine("David Haskell");
+        Console.ResetColor();
+    }
+
+  public static void Aminov()
+    {
+        Console.ForegroundColor = ConsoleColor.DarkYellow;
+        Console.BackgroundColor = ConsoleColor.White;
+        Console.WriteLine("Teacher: Aminov");
+        Console.ResetColor();
+    }
+
+    public static void Yonatan()
+    {
+        int x = Random.Shared.Next(1, 16);
+        int y = Random.Shared.Next(1, 15);
+        if (x == y) y += 1;
+        Console.ForegroundColor = (ConsoleColor)x;
+        Console.BackgroundColor = (ConsoleColor)y;
+        Console.WriteLine("Yonatan");
         Console.ResetColor();
     }
 }

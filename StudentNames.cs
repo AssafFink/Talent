@@ -145,6 +145,14 @@ internal static class StudentNames
 
         Console.ResetColor();
     }
+
+    public static void Tal()
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.BackgroundColor = ConsoleColor.Red;
+        Console.WriteLine("Tal Streshinski");
+        Console.ResetColor();
+    }
 }
 
 

@@ -9,8 +9,11 @@ internal static class StudentNames
 
     public static void Yonatan()
     {
-        Console.ForegroundColor = (ConsoleColor)Random.Shared.Next(1, 16);
-        Console.BackgroundColor = (ConsoleColor)Random.Shared.Next(1, 16);
+        int x = Random.Shared.Next(1, 16);
+        int y = Random.Shared.Next(1, 15);
+        if (x == y) y += 1;
+        Console.ForegroundColor = (ConsoleColor)x;
+        Console.BackgroundColor = (ConsoleColor)y;
         Console.WriteLine("Yonatan");
     }
 }

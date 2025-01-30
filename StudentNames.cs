@@ -7,11 +7,21 @@ internal static class StudentNames
         Console.WriteLine("Teacher: Assaf");
     }
 
+    public static void Guy()
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.BackgroundColor = ConsoleColor.Cyan;
+        Console.WriteLine("Guy");
+       Console.ResetColor();
+    }
+  
     public static void GalAmrani()
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("Student: Gal amrani");
+       Console.ResetColor();
     }
+  
     public static void DavidHaskell()
     {
         Console.ForegroundColor = ConsoleColor.Yellow;

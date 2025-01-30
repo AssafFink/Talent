@@ -8,7 +8,7 @@ internal class Program
         StudentNames.Aminov();
         Console.WriteLine("Talent student names: ");
 
-
+        StudentNames.Yonatan();
 
     }
 }

@@ -8,6 +8,6 @@ internal static class StudentNames
     }
     public static void Aminov()
     {
-        Console.WriteLine("Teacher: Assaf");
+        Console.WriteLine("Teacher: Aminov");
     }
 }

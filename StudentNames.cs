@@ -6,4 +6,11 @@ internal static class StudentNames
     {
         Console.WriteLine("Teacher: Assaf");
     }
+
+    public static void Tal()
+    {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("Tal Streshinski");
+        Console.ResetColor();
+    }
 }

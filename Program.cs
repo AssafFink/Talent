@@ -10,5 +10,7 @@ internal class Program
 
         StudentNames.Orel();
 
+
+
     }
 }

@@ -9,6 +9,8 @@ internal static class StudentNames
 
     public static void GalNeeman()
     {
+        Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("Student: Gal Neeman");
+        Console.ResetColor();
     }
 }

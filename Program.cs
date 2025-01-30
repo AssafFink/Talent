@@ -8,6 +8,7 @@ internal class Program
 
         Console.WriteLine("Talent student names: ");
 
+        StudentNames.Gil();
 
 
     }

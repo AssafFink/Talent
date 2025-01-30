@@ -7,7 +7,7 @@ internal class Program
         StudentNames.Assaf();
 
         Console.WriteLine("Talent student names: ");
-
+        StudentNames.Omri();
 
 
     }

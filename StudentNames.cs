@@ -7,7 +7,15 @@ internal static class StudentNames
         Console.WriteLine("Teacher: Assaf");
     }
 
-    public static void Aminov()
+    public static void DavidHaskell()
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.BackgroundColor = ConsoleColor.Green;
+        Console.WriteLine("David Haskell");
+        Console.ResetColor();
+    }
+
+  public static void Aminov()
     {
         Console.ForegroundColor = ConsoleColor.DarkYellow;
         Console.BackgroundColor = ConsoleColor.White;

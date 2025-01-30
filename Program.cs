@@ -4,11 +4,11 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Talent teacher name: ");
         StudentNames.Assaf();
-        StudentNames.Aminov();
         Console.WriteLine("Talent student names: ");
-
+        StudentNames.Aminov();
+        StudentNames.DavidHaskell();
         StudentNames.Yonatan();
-
     }
 }

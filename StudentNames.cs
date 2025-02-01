@@ -155,7 +155,7 @@ internal static class StudentNames
     }
     public static void Tomer()
     {
-        Console.ForegroundColor = ConsoleColor.DarkGreen;
+        Console.ForegroundColor = ConsoleColor.Red;
         Console.BackgroundColor = ConsoleColor.White;
         Console.WriteLine("Tomer (^.^)");
         Console.ResetColor();

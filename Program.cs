@@ -23,5 +23,6 @@ internal class Program
         StudentNames.Aminov();
         StudentNames.DavidHaskell();
         StudentNames.Yonatan();
+        StudentNames.Tomer();
     }
 }

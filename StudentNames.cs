@@ -153,6 +153,13 @@ internal static class StudentNames
         Console.WriteLine("Tal Streshinski");
         Console.ResetColor();
     }
+    public static void Tomer()
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.BackgroundColor = ConsoleColor.White;
+        Console.WriteLine("Tomer (^.^)");
+        Console.ResetColor();
+    }
 }
 
 
